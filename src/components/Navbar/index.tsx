@@ -72,7 +72,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <ul className={` ${navbarOpen ? 'flex' : 'hidden'} flex-col justify-evenly space-y-6 absolute bg-[#FF2755] items-center text-center text-white font-medium p-4 rounded-md right-5 top-20 md:right-20 md:top-28 shadow-lg`}>
+        <ul className={` ${navbarOpen ? 'flex' : 'hidden'} z-10 flex-col justify-evenly space-y-6 absolute bg-[#FF2755] items-center text-center text-white font-medium p-4 rounded-md right-5 top-20 md:right-20 md:top-28 shadow-lg`}>
             <li className={pathname.includes('discover') ? 'bg-black rounded-md p-2 w-full' : ''}>
               <Link href='/discover'>
                 <p>Discover Menu</p>
