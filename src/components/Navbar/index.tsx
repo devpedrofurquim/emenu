@@ -39,7 +39,7 @@ const Navbar = () => {
             </li>
             <li className="hover:text-[#FF2755]">
               <Link href='/'>
-                <p>Specials</p>
+                <p>Specials Dishes</p>
               </Link>
             </li>
             <li className="hover:text-[#FF2755]">
